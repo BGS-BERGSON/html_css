@@ -1,0 +1,23 @@
+@charset "utf-8"; 
+
+body{background-color: aquamarine;
+    text-align: justify;
+    color: blueviolet;} 
+
+h1#principal{color: brown;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;} 
+
+    h1{text-decoration: underline;
+        color: chocolate;
+        text-shadow: 1px 1px 5px rgb(3, 104, 104);} 
+
+    p{color: black;
+        font-size: larger;
+        font-family: monospace;} 
+
+    .basico{font-family: cursive;} 
+    .intermediario{text-shadow: 1px 1px 2px chartreuse; text-decoration: underline;}  
+    .lorem{text-decoration: underline;}
+
