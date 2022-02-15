@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grandes</title> 
+    <style> 
+        :root{
+            --cor01: rgb(175, 248, 3); 
+            --cor02: rgb(106, 90, 205); 
+            --font01: 
+            --font02:
+        }
+        *{
+            margin: 0;
+            padding: 0; 
+           
+        }  
+        body{
+            background-color: rgba(219, 175, 208, 0.418)
+        }
+        main{
+            min-width: 300px;
+            max-width: 1100px;
+            margin: auto;
+            background-color: aliceblue; 
+            box-shadow: 0px 0px 5px black;
+        }
+        header{
+        background-color: slateblue;
+        
+        }
+        header h1{ 
+            color: var(--cor01);
+            font-size: 3em;
+            text-align: center;
+            padding: 50px;           
+        }
+        article h4{
+            padding: 50px; 
+            font-size: 1.2em;
+        }  
+        article img{
+            margin: auto; 
+            display: block;
+        } 
+        article p{
+            text-align: justify;
+            padding: 20px;
+            text-indent: 30px;
+            line-height: 2em; 
+            font-size: 1.2em;
+        }
+        .rio01{
+            padding-top: 50px;
+        }
+        table{
+            margin: auto;
+            
+        } 
+        caption{
+            font-weight: bold;
+            text-align: end;
+        }
+        th{
+            background-color: slateblue;
+            color: rgb(175, 248, 3);
+        }
+       tr:nth-child(2n){
+           background-color: rgba(131, 0, 253, 0.164);
+       }        
+        th, td{
+            border: 1px solid black; 
+            padding: 5px; 
+            text-align: center;
+
+        } 
+        footer p{
+            background-color: var(--cor02);  
+            color: var(--cor01); 
+            font-size: larger;
+            padding: 10px; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body> 
+    <header> 
+        <h1>População brasileira ultrapassa <br> 213 milhões de habitantes, diz IBGE</h1> 
+        
+        </header>
+
+
+        <main>    
+            <section>
+                <article> 
+                    <h4>População cresceu cerca de 0,7% em relação ao ano passado; instituto afirma que nova estimativa ainda não incorpora os efeitos da pandemia da Covid-19 <br>
+                        O Globo <br>
+                        27/08/2021 - 09:14 / Atualizado em 27/08/2021</h4> 
+                    <img src="imagens/sao_paulo.jpg" alt="população de São Paulo"> 
+
+                    <p class="rio01">RIO — A população brasileira atingiu a marca de 213.317.639 habitantes, segundo estimativa do Instituto Brasileiro de Geografia e Estatística (IBGE), publicada no Diário Oficial da União nesta sexta-feira. Conforme noticiado pelo G1, o valor se refere a 1 de julho deste ano e representa um crescimento de cerca de 0,7% em relação à população estimada em 2020, de 211,8</p> 
+
+                    <p>Em 2021, São Paulo segue o estado mais populoso, com 46,649 milhões de pessoas, concentrando 21,9% da população total do país. Em seguida estão Minas Gerais, com 21,411 milhões, e Rio de Janeiro, com 17,463 milhões. <br>
+                    A menor população foi estimada em Roraima, com 652.713 habitantes. No entanto, o estado teve o maior aumento percentual em um ano, de 3,4%. Já o Piauí, com 3,289 milhões de pessoas, registrou o menor aumento percentual, de 0,2%.</p> 
+
+                    <p>Os cinco estados menos populosos somam cerca de 5,8 milhões de pessoas e estão na região Norte. Apenas três têm menos de 1 milhão de habitantes: além de Roraima, o Amapá, com 877.613, e o Acre, com 906.876. Os outros dois são Tocantins, com 1.607.363, e Rondônia, com 1.815.278. <br>
+
+                    No entanto, segundo os pesquisadores, as novas estimativas populacionais não incorporam os efeitos da pandemia da Covid-19. Márcio Mitsuo Minamiguchi, gerente de Estimativas e Projeções de População do IBGE, afirma que dados preliminares do Registro Civil e do Ministério da Saúde apontam para um excesso de mortes, principalmente entre idosos, e uma diminuição dos nascimentos.</p> 
+                    
+                    <p>Também é possível que tenham ocorrido alterações nos fluxos migratórios. As implicações desses fatores no tamanho da população serão verificadas apenas no próximo Censo Demográfico, previsto para ser realizado em 2022. <br>
+
+                    “Como a pandemia ainda está em curso e devido à ausência de novos dados a respeito da migração, que juntamente com a mortalidade e fecundidade constituem as chamadas componentes da dinâmica demográfica, ainda não foi elaborada uma projeção da população para os estados e o Distrito Federal que incorpore os efeitos do contexto sanitário atual na população”, explica Minamiguchi, em nota.</p> 
+
+                    <p>O gerente do estudo acrescenta que o próximo Censo Demográfico apresentará não apenas uma atualização dos contingentes populacionais, como também subsidiará futuras projeções, "fundamentais para compreender as implicações da pandemia sobre a população, não somente no curto, mas também no médio e longo prazo”.</p>
+
+            
+
+                </article>
+            </section>
+    
+        <table>  
+            <caption>População das Unidades Federativas</caption>
+            <thead> 
+                <tr>
+                    <th scope="col">Posição</th>
+                    <th scope="col">Unidade Federativa</th>
+                    <th scope="col">População (2021)</th>
+                </tr>
+            </thead> 
+
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>São Paulo</td>
+                    <td>46.649.132</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Minas Gerais</td>
+                    <td>21.411.923</td>
+                </tr> 
+                <tr>
+                    <td>03</td>
+                    <td>Rio de Janeiro</td>
+                    <td>17.463.349</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Bahia</td>
+                    <td>14.985.284</td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Paraná</td>
+                    <td>11.597.484</td>
+                </tr> 
+                <tr>
+                    <td>06</td>
+                    <td>Rio Grande do Sul</td>
+                    <td>11.466.630</td>
+                </tr>
+                <tr>
+                    <td>07</td>
+                    <td>Pernambuco</td>
+                    <td>9.674.793</td>
+                </tr>
+                <tr>
+                    <td>08</td>
+                    <td>Ceará</td>
+                    <td>9.240.580</td>
+                </tr>
+                <tr>
+                    <td>09</td>
+                    <td>Pará</td>
+                    <td>8.777.124</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Santa Catarina</td>
+                    <td>7.338.473</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Goiás</td>
+                    <td>7.206.589</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Maranhão</td>
+                    <td>7.153.262</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Amazonas</td>
+                    <td>4.269.995</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Espírito Santo</td>
+                    <td>4.108.508</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Paraíba</td>
+                    <td>4.059.905</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Mato Grosso</td>
+                    <td>3.567.234</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Rio Grande do Norte</td>
+                    <td>3.560.903</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Alagoas</td>
+                    <td>3.365.351</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Piauí</td>
+                    <td>3.389.290</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Distrito Federal</td>
+                    <td>3.094.325</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Mato Grosso do Sul</td>
+                    <td>2.839.188</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Sergipe</td>
+                    <td>2.338.474</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Rondônia</td>
+                    <td>1.815.278</td>
+                </tr> 
+                <tr>
+                    <td>24</td>
+                    <td>Tocantins</td>
+                    <td>1.607.363</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Acre</td>
+                    <td>906.876</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>Amapá</td>
+                    <td>877.613</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>Roraima</td>
+                    <td>652.713</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th scope="row">Estimativa da população 2021</th> 
+                    <th scope="row">Brasil 213.317.639</th>
+                </tr>
+
+            </tfoot>
+            
+            </table> 
+
+            <section>
+                <article> 
+                    <p>O estudo do IBGE leva em conta todos os 5.570 municípios brasileiros, é referência para indicadores sociais, econômicos e demográficos, e um dos parâmetros utilizados pelo Tribunal de Contas da União (TCU) para o cálculo do Fundo de Participação de Estados e Municípios.</p>
+
+                    <p>
+                        Mais da metade da população se concentra em 5,8% dos municípios
+                        Segundo a estimativa do IBGE, São Paulo continua sendo o município mais populoso do Brasil, com 12,4 milhões de pessoas. Em seguida estão Rio de Janeiro (6,8 milhões), Brasília (3,1 milhões), Salvador (2,9 milhões) e Fortaleza (2,7 milhões).
+                    </p> 
+
+                    <img src="imagens/mapa.jpeg" alt="mapa Brasileiro">
+
+                    <p>Mais da metade da população brasileira em 2021 (57,7% ou 123,0 milhões de habitantes), está concentrada em apenas 5,8% dos municípios, o equivalente a 326. Apenas as 26 capitais mais o Distrito Federal superam 50 milhões de habitantes, representando 23,87% da população do país este ano.</p>
+
+                    <p>Segundo a estimativa de 2021, 67,7%, ou 3.770 municípios do país, têm menos de 20 mil habitantes e concentram apenas 14,8% da população (31,6 milhões de pessoas).</p> 
+
+                    <p>Serra da Saudade (MG) é a cidade brasileira com menor população, de apenas 771 pessoas. Outras três também têm menos de mil habitantes: Borá (SP), Araguainha (MT), e Engenho Velho (RS).</p>
+
+                    <p>De acordo com o IBGE, houve um aumento gradativo do número de grandes municípios no Brasil na última década. No Censo de 2010, apenas 38 cidades tinham população superior a 500 mil habitantes, número que passou para 49 em 2021.</p>
+
+                </article>
+            </section>
+
+        </main> 
+
+        <footer>
+            <p>Site criado pela cooperação do CursoemVídeo</p>
+
+        </footer>
+</body>
+</html>
