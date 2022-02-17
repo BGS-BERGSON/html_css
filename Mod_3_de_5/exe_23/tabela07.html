@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Geral de Tabelas</title> 
+    <style>
+        caption{
+            font-weight: bold;
+            text-align: center;
+            font-size: 2em; 
+            padding-bottom: 30px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 20px; 
+            width: 200px; 
+            text-align: center;
+        }  
+        th{
+            background-color: gray;
+        } 
+        #container{
+            overflow-x: auto;
+        } 
+        .bourdo{
+            background-color: brown;
+        } 
+        div table{ 
+            border-collapse: collapse;
+            position: relative;
+        } 
+        thead tr th{ 
+            position: sticky;
+            top: 0px; 
+            background-color: brown;
+        }
+        tr:nth-child(even){background-color: brown;
+    
+        }
+    </style>
+</head>
+<body> 
+    <h1>Revisão incluindo tudo que foi abordado no assunto de Tabelas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam earum sequi libero? Pariatur iusto, beatae repellendus saepe qui est sapiente vel velit deleniti laboriosam, assumenda, ratione natus sit eius porro!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam earum sequi libero? Pariatur iusto, beatae repellendus saepe qui est sapiente vel velit deleniti laboriosam, assumenda, ratione natus sit eius porro!</p> 
+
+    <div id="container">
+        <table> 
+
+            <colgroup> 
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col class="bourdo" span="2">
+                <col>
+            </colgroup>
+
+            <caption>Perfil de Clientes</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Estado Civil</th>
+                    <th scope="col">Profissão</th>  
+                    <th scope="col">Endereço</th>
+                    <th scope="col">Telefone</th> 
+                    <th scope="col">Email</th>
+                    <th scope="col">Altura</th>
+                    <th scope="col">Peso</th> 
+                    <th scope="col">Cor</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr> 
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr> 
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr> 
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+                <tr>
+                    <td>Maria Oliveira</td>
+                    <td>39</td>
+                    <td>F</td>
+                    <td>Solteira</td>
+                    <td>costureira</td>
+                    <td>Rua Alba</td>
+                    <td>(78) 9875-4456</td>
+                    <td>bgcolor@yahoo.com</td>
+                    <td>1,88m</td> 
+                    <td>69kg</td>
+                    <td>parda</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th scope="col" colspan="9">QUANTIDADE DE CLIENTES</th>
+                    <th scope="col" colspan="2">TOTAL 125</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    
+</body>
+</html>
