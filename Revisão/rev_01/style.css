@@ -39,7 +39,7 @@ header{
 header h1{  
     font-family: var(--font3);
     color: var(--cor0);
-    font-size: 2.6em;
+    font-size: 3em;
     text-align: center;
     padding-top: 50px;
     text-shadow: 2px 2px 3px var(--cor2); 
@@ -48,7 +48,7 @@ header h1{
 header p{ 
     font-family: var(--font1);
     color: var(--cor0); 
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-align: center; 
     padding-top: 20px;
     padding-bottom: 30px; 
@@ -82,19 +82,85 @@ main{
     max-width: 1000px; 
     background-color: var(--cor0); 
     margin: auto; 
-    padding: 20px;      
+    padding: 20px;    
+    box-shadow: 2px 2px 5px black;   
 } 
-main p{
-    line-height: 2em;
-    text-indent: 30px;
-}
 main h2{
-    background-color: var(--cor2);
-    color: var(--cor1);
-    padding: 10px;
+    color: var(--cor5);
+    padding: 30px; 
+    text-align: center; 
+    font-size: 2.5em; 
+    font-family: var(--font1);     
+}
+main h3{
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    color: var(--cor4);
+    padding: 8px 25px;
+    margin-left: -20px; 
+    font-size: 1.8em; 
+    font-family: var(--font1);     
+}
+main p{ 
+    font-family: var(--font2);
+    line-height: 2em;
+    text-indent: 30px; 
+    margin: 20px 20px; 
+    text-align: justify;
+    font-size: 1.2em;  
+} 
+main a{
+    background-color: #F2C12E;
+    color: rgba(139, 69, 19, 0.534); 
+    font-weight: bold; 
+    border-radius: 5px;
+} 
+main a:hover{
+    color: #593E25;
 }
 
-footer p{
+.img1{
+    position: relative;
+    left: 10%; 
+}  
+.img2{    
+   width: 100%;    
+}
+.img3{
+   position: relative;
+   left: 40%;
+} 
+.video1{
+    width: 100%;
+    margin: auto;
+}
+.video2{
+    background-color: var(--cor5); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px black;
+} 
+.extra{
+    background-color: var(--cor4);
+    margin-top: 30px;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px black;
+} 
+div h4{
+    background-color: var(--cor5); 
+    padding: 10px; 
+    color: var(--cor4); 
+    font-family: var(--font1); 
+    font-size: 1.4em;
+    border-radius: 10px 10px 0px 0px;
+} 
+ul{ 
+    font-family: var(--font2);
+    columns: 2; 
+    padding-left: 50px;
+}
+
+footer p{ 
+    font-family: var(--font2);
     background-color: var(--cor5); 
     padding: 5px;
     color: var(--cor0);
