@@ -1,25 +1,140 @@
 @charset "utf-8";   
 
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap'); 
+@font-face {
+    font-family: 'idroid';
+    src: url(../rev_02/fontes/IDroid.otf);
+} 
+@font-face {
+    font-family: 'urban' ;
+    src: url(../rev_02/fontes/UrbanJungleDEMO.otf);
+}
+
 :root{
-    --cor0; #ffffff;
+    
     --cor1: #033E8C; 
     --cor2: #3D5473; 
     --cor3: #DCE6F2;  
     --cor4: #6085A6; 
     --cor5: #BF0404; 
-    --font1;   
-    --font2: 
-    --font3:  
+    --font2: 'Patrick Hand', cursive; 
+    --font3: 'idroid'; 
+    --font4: 'urban';
+    --font5: 'Sigmar One', cursive;
+     
 } 
-
 
 
 *{
     margin: 0;
     padding: 0;
-    list-style-type: none;
-} 
+    list-style-type: none; 
+    text-decoration: none;
+}   
+body{
+    background-color: var(--cor3);
+    
+}
+main{ 
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto; 
+    
+}
 
 header{
-    background-image: to bottom, var(cor1) var(--cor2);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3)); 
+    box-shadow: 2px 2px 3px black;
+    
+} 
+header h1{
+    font-family: 'urban';
+    font-size: 4em; 
+    text-align: center; 
+    padding-top: 50px;
+} 
+header p{
+    font-family: var(--font2);
+    font-size: 1.8em; 
+    text-align: center; 
+    padding-bottom: 50px; 
+} 
+header nav{ 
+    background-color: var(--cor2); 
+    padding: 5px
+} 
+header nav a{ 
+    font-family: var(--font2);
+    margin-right: 30px; 
+    color: var(--cor3); 
+    font-size: 1.2em; 
+    font-weight: bold;
+} 
+header a:hover{
+    background-color: var(--cor3);
+    color: var(--cor2); 
+    border-radius: 5px; 
+    transition: 0.6s;
+}
+
+
+main h1{
+    font-family: var(--font5);
+    text-align: center;   
+    padding-top: 20px;
+    padding-bottom: 30px;
+}  
+main h2{  
+    font-family: 'idroid';
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, var(--cor2), transparent); 
+    color: var(--cor3);
+}
+main p{
+    font-family: var(--font2);
+    text-indent: 30px; 
+    padding-left: 30px; 
+    padding-right: 30px;
+    text-align: justify;  
+    font-size: 1.4em; 
+    line-height: 2em;
+    
+} 
+main .extra{
+    background-color: var(--cor4); 
+    color: var(--cor3);
+}
+main .extra h3{ 
+    text-transform: uppercase;
+    font-family: var(--font2); 
+    font-size: 1.6em;
+    background-color: var(--cor2); 
+    color: var(--cor3);
+    padding-left: 30px;
+} 
+.extra ul {
+    columns: 2; 
+    padding-left: 30px;
+}
+
+
+footer{
+    background-color: var(--cor2); 
+    color: var(--cor3); 
+    box-shadow: 2px 2px 3px black;
+    text-align: center; 
+    font-size: 1.2em;
+} 
+footer a{
+    text-decoration: underline;
+    color: var(--cor3); 
+    font-style: italic;
+}  
+footer a:hover{ 
+    color: var(--cor5);
+
 }
