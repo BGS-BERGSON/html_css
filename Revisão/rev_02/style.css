@@ -53,13 +53,17 @@ header h1{
     font-family: 'urban';
     font-size: 4em; 
     text-align: center; 
-    padding-top: 50px;
+    padding-top: 50px; 
+    color: rgba(0, 255, 0, 0.699); 
+    text-shadow: 3px 3px 3px black;
 } 
 header p{
     font-family: var(--font2);
     font-size: 1.8em; 
     text-align: center; 
     padding-bottom: 50px; 
+    color: limegreen; 
+    text-shadow: 3px 3px 3px black;
 } 
 header nav{ 
     background-color: var(--cor2); 
@@ -121,6 +125,9 @@ main .extra h3{
     padding-left: 30px;
 }
 
+main img{
+    width: 100%;
+}
 
 footer{
     background-color: var(--cor2); 
@@ -135,6 +142,6 @@ footer a{
     font-style: italic;
 }  
 footer a:hover{ 
-    color: var(--cor5);
+    color: lime;
 
 }
